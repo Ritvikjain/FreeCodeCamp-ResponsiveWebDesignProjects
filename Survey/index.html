@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Survey</title>
+    <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet"/>
+    <link href="style.css" rel="stylesheet"/>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</head>
+<body  class="bg-dark">
+    <div id="main">
+        <h1 id="title" class="m-4">Survey</h1>
+        <div id="content" class="d-flex flex-row justify-content-center m-3">
+            <div class="card text-white bg-secondary">
+                <div  class="card-header">
+                    <p id="description">Let us know how we can improve freeCodeCamp</p>
+                </div>
+                <div class="card-body">
+                    <form id="survey-form">
+                        <div  class="form-group row">
+                            <label for="name" id="name-label" class="col-sm-6 col-form-label">Name</label>
+                            <div class="col-sm-6">
+                            <input name="name" type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                            </div>
+                        </div>
+                        <div  class="form-group row">
+                            <label for="email" id="email-label" class="col-sm-6 col-form-label">Email</label>
+                            <div class="col-sm-6">
+                            <input  type="email" class="form-control" id="email" placeholder="Enter your Email" required>
+                            </div>
+                        </div>
+                        <div  class="form-group row">
+                            <label for="age" id="number-label" class="col-sm-6 col-form-label">Password</label>
+                            <div class="col-sm-6">
+                            <input id="number" min="1" max="125" type="number" class="form-control" id="inputPassword" placeholder="Enter your age">
+                            </div>
+                        </div>
+                        <div id="dropdown" class="form-group row">
+                            <label for="role" class="col-sm-6 col-form-label">Which option best describes your current role?</label>
+                            <div class="col-sm-6">
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>Student</option>
+                                    <option>Full Time Job</option>
+                                    <option>Full Time Learner</option>
+                                    <option>Prefer not to say</option>
+                                    <option>Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="role" class="col-sm-6 col-form-label">How likely is that you would recommend freeCodeCamp to a friend?</label>
+                            <div class="col-sm-6">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                    <label class="form-check-label" for="exampleRadios1">
+                                        Definitely
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                    <label class="form-check-label" for="exampleRadios2">
+                                        May be
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                    <label class="form-check-label" for="exampleRadios2">
+                                        Not Sure
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="role" class="col-sm-6 col-form-label">What do you like most in FCC:</label>
+                            <div class="col-sm-6">
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>Challenges</option>
+                                    <option>Projects</option>
+                                    <option>Community</option>
+                                    <option>Open Source</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="role" class="col-sm-6 col-form-label">Things that should be improved in the future (Check all that apply):</label>
+                            <div class="col-sm-6">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="1" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Frontend Projects
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="1" id="defaultCheck2">
+                                    <label class="form-check-label" for="defaultCheck2">
+                                        Backend Projects
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="1" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Data Visualization
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="1" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Challenges
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="1" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Open Source Community
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="1" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Gitter help rooms
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="1" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Videos
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="1" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        City Meetups
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="1" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Wiki
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="1" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Forum
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="1" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Additional Courses
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="suggestions" class="col-sm-6">Any Comments or Suggestions?</label>
+                            <div class="col-sm-6">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" value="Enter you comment here..."></textarea>
+                            </div>
+                        </div>
+                        <button id="submit" type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

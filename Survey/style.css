@@ -1,0 +1,17 @@
+#main{
+    text-align: center;
+}
+label{
+    text-align: end;
+}
+#title{
+    color: white;
+}
+input{
+    align-self: start;
+}
+div.form-check{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
