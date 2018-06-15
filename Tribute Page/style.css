@@ -1,0 +1,30 @@
+#main{
+    text-align: center;
+    font-family: cursive;
+    margin:0px auto;
+    border:0px solid;
+    color: white;
+    background:rgb(50, 51, 54);
+    padding: 15px;
+}
+#img-div{
+    margin:-5px;
+    margin-top:20px;
+    width:100%;
+    border:5px solid rgb(66, 62, 62);
+    background:rgb(97, 97, 97);
+  }
+  img{
+    max-width: 100%; 
+    display: block; 
+    height: auto;
+    margin: auto;
+  }
+#tribute-info{
+    margin: 10px auto;
+}
+#para{
+    text-align: justify;
+    padding: 10px;
+    margin: 0px 20px;
+}
