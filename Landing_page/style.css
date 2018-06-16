@@ -1,0 +1,43 @@
+body{
+    padding-top: 65px; 
+}
+#form-content{
+    margin-top: 100px;
+    padding: 5px;
+    align-items: center;
+}
+#form{
+    align-items: center;
+}
+#content{
+    margin: 50px 0px 10px 0px;
+    padding: 10px;
+}
+#features{
+    margin: 50px 0 50px 0;
+}
+#how-it-works{
+    margin: 50px 0 50px 0;
+}
+#pricing{
+    margin: 50px 0 50px 0;
+}
+footer {
+    margin-top: 30px;
+    background-color: #ddd;
+    padding: 20px;
+  }
+  footer ul {
+    display: flex;
+    justify-content: center;
+  }
+  footer ul li {
+    padding: 0 20px;
+  }
+  footer span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: 0.9em;
+    color: #444;
+  }
